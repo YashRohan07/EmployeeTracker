@@ -11,6 +11,8 @@
   - Each **employee_detail** belongs to one **employee** (`employee_details.employee_id` → `employees.id`).
 - **Foreign Key Constraints:** Ensured proper migration order to avoid foreign key errors, creating tables in the correct sequence.
 - **Successful Migration:** All tables have been successfully migrated to the MySQL database.
-- **Project Ready for Next Steps:** The project is now ready for bulk data insertion and API development.
+
+<img width="988" height="573" alt="Capture" src="https://github.com/user-attachments/assets/4dd29b5c-8fe8-4d7a-bbd7-764dba235358" />
+
 
   
