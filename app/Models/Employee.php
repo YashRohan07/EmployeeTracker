@@ -27,6 +27,6 @@ class Employee extends Model
 
     public function detail()
     {
-        return $this->hasOne(EmployeeDetail::class);
+        return $this->hasOne(EmployeeDetail::class, 'employee_id');
     }
 }
