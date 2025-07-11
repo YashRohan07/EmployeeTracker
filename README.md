@@ -79,11 +79,13 @@ Automatically generate employee details for each employee.
   - Tested API endpoints with samples and verified responses (including creating employees and retrieving them).
  
 
-**GET http://127.0.0.1:8000/api/employees**
+**List All Employees (GET)**
 <img width="937" height="585" alt="1" src="https://github.com/user-attachments/assets/2a4452c0-6cb9-414b-b51a-a5289926dea3" />
 
 <img width="666" height="566" alt="111" src="https://github.com/user-attachments/assets/3c19eca6-f747-4139-9967-33631c4b1578" />
 
+
+**Create New Employee (POST)**
 <img width="934" height="377" alt="4" src="https://github.com/user-attachments/assets/88c7f9b1-8dd9-4653-995a-dca887213fd3" />
 
 <img width="934" height="557" alt="5" src="https://github.com/user-attachments/assets/8c7c5a83-92be-4270-822e-8195b981b565" />
