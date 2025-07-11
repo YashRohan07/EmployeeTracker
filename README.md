@@ -39,6 +39,13 @@
 
 - **Verification:** Confirmed that **100,000+ employees** and **10 department** tables were successfully created.
 
-- **Best Practices:** Followed Laravel conventions for factories, seeders, and model relationships to ensure **clean, maintainable, and scalable bulk data insertion**.
+- **Best Practices:** Followed Laravel conventions for factories, seeders, and model relationships to ensure clean, maintainable and scalable bulk data insertion.
 Automatically generate employee details for each employee.
+
+
+<img width="1353" height="670" alt="1" src="https://github.com/user-attachments/assets/edebafab-aff1-40f4-bbef-dc166445363d" />
+
+<img width="1354" height="684" alt="2" src="https://github.com/user-attachments/assets/9e493e9c-4a10-462e-9d4c-d83782373a3b" />
+
+<img width="1357" height="680" alt="3" src="https://github.com/user-attachments/assets/0ad18cb1-2ca2-44f8-b781-c5ce0d5c7999" />
 
