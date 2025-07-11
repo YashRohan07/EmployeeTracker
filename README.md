@@ -106,4 +106,17 @@ Automatically generate employee details for each employee.
 <img width="936" height="242" alt="10" src="https://github.com/user-attachments/assets/bf91f311-be48-4a41-b195-7be9c967e386" />
 
 
+**Search by Name/Email**
+<img width="937" height="551" alt="search" src="https://github.com/user-attachments/assets/17d59afe-f11b-4fcb-a0b1-2bf2bdfca303" />
 
+**Filter by Department**
+<img width="932" height="566" alt="dept" src="https://github.com/user-attachments/assets/2cbe51da-13fa-447f-a9cf-abd1fa32e23b" />
+
+**Filter by Salary Range**
+<img width="932" height="549" alt="salARRY" src="https://github.com/user-attachments/assets/5f2e82fb-9807-4ba8-8076-dc5c653e1be9" />
+
+**Filter by Joining Date Range**
+<img width="936" height="579" alt="joindate" src="https://github.com/user-attachments/assets/2629817c-9b7c-4da3-b3a9-5141c4bc9c25" />
+
+**Sort by Joining Date**
+<img width="930" height="620" alt="sort" src="https://github.com/user-attachments/assets/2d5a6e86-1319-4b92-b453-eaf8aafe4c5d" />
