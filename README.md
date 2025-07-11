@@ -81,36 +81,7 @@ Automatically generate employee details for each employee.
 
 <img width="937" height="585" alt="1" src="https://github.com/user-attachments/assets/2a4452c0-6cb9-414b-b51a-a5289926dea3" />
 
-"current_page": 1,
-    "data": [
-        {
-            "id": "00025f6f-a6be-38ea-b08c-a296dba22bdc",
-            "name": "Ollie Wilkinson IV",
-            "email": "murray.felipe@example.com",
-            "department_id": 9,
-            "created_at": "2025-07-11T05:16:59.000000Z",
-            "updated_at": "2025-07-11T05:16:59.000000Z",
-            "deleted_at": null,
-            "department": {
-                "id": 9,
-                "name": "Hermann, Anderson and Hagenes",
-                "description": "Self-enabling eco-centric database",
-                "created_at": "2025-07-11T05:08:13.000000Z",
-                "updated_at": "2025-07-11T05:08:13.000000Z",
-                "deleted_at": null
-            },
-            "detail": {
-                "id": 31847,
-                "employee_id": "00025f6f-a6be-38ea-b08c-a296dba22bdc",
-                "designation": "Creative Writer",
-                "salary": 88672.93,
-                "address": "2514 Cronin Ridges Suite 575\nOsinskifurt, NV 13760",
-                "joined_date": "1995-05-14",
-                "created_at": "2025-07-11T05:27:28.000000Z",
-                "updated_at": "2025-07-11T05:27:28.000000Z"
-            }
-        },
-        
+<img width="666" height="566" alt="111" src="https://github.com/user-attachments/assets/3c19eca6-f747-4139-9967-33631c4b1578" />
 
 <img width="934" height="377" alt="4" src="https://github.com/user-attachments/assets/88c7f9b1-8dd9-4653-995a-dca887213fd3" />
 
