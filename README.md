@@ -49,3 +49,31 @@ Automatically generate employee details for each employee.
 
 <img width="1357" height="680" alt="3" src="https://github.com/user-attachments/assets/0ad18cb1-2ca2-44f8-b781-c5ce0d5c7999" />
 
+
+
+## **Task-3: What I Have Done Here......**  
+
+- **API Controller Implementation:**  
+  - Created `EmployeeController` in `App\Http\Controllers\API` to handle **CRUD operations** for employees.  
+
+- **API Resource Methods Implemented:**  
+  - `index()` – Lists employees with **pagination**, including related **department** and **employee detail** data.  
+  - `store()` – Validates and saves a **new employee** with its related **detail record**.  
+  - `show($id)` – Fetches a **specific employee** with related data.  
+  - `update($id)` – Validates and updates **employee** and related **detail data**.  
+  - `destroy($id)` – Deletes an **employee**.  
+
+- **Validation:**  
+  - Used Laravel’s **Validator** to ensure inputs meet required constraints (e.g., **unique email**, **valid department**, **required fields**).  
+
+- **Eloquent Relationships Used:**  
+  - Leveraged Eloquent relationships (**Employee has department and detail**) to **eager load** related data efficiently.  
+
+- **UUID Usage:**  
+  - Auto generated **UUIDs** for employee IDs when creating new records.  
+
+- **JSON Response:**  
+  - Returned **JSON responses** with appropriate **HTTP status codes** for success and error scenarios.  
+
+- **Tested API:**  
+  - Tested API endpoints with **samples** and verified responses (including **creating employees** and **retrieving them**).
