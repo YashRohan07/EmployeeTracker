@@ -16,33 +16,29 @@
 
 
 
-Task-2: What I Have Done Here......
-Factory Setup: Created Laravel Model Factories for:
+## **Task-2: What I Have Done Here......**  
 
-DepartmentFactory — generates fake departments.
+- **Factory Setup:** Created Laravel Model Factories for:  
+  - **departments** using `DepartmentFactory` to generate fake departments.  
+  - **employees** using `EmployeeFactory` to generate fake employees with UUIDs.  
+  - **employee_details** using `EmployeeDetailFactory` to generate fake employee details linked to employees.  
 
-EmployeeFactory — generates fake employees with UUIDs.
+- **Model Relationships:**  
+  - Each **employee** belongs to one **department** (`employees.department_id` → `departments.id`).  
+  - Each **employee_detail** belongs to one **employee** (`employee_details.employee_id` → `employees.id`).  
 
-EmployeeDetailFactory — generates fake employee details linked to employees.
+- **Seeder Logic:** Created a `DatabaseSeeder` to:  
+  - Insert **10 fake departments** into the `departments` table.  
+  - Insert **100,000 fake employees** into the `employees` table.  
+  - Automatically create **employee details** for each employee.  
 
-Model Relationships:
+- **Bulk Data Insertion:** Used `php artisan migrate:fresh --seed` to:  
+  - Drop existing tables.  
+  - Migrate fresh tables.  
+  - Seed bulk fake data efficiently.  
 
-Employee belongs to Department and has one EmployeeDetail.
+- **Verification:** Confirmed that **100,000+ employees** and corresponding records in `employee_details` and `departments` tables were successfully created.  
 
-Department has many Employees.
-
-EmployeeDetail belongs to Employee.
-
-Seeder Logic: Wrote a DatabaseSeeder to:
-
-Insert 10 departments into the departments table.
-
-Insert 100,000 fake employees into the employees table.
-
+- **Best Practices:** Followed Laravel conventions for factories, seeders, and model relationships to ensure **clean, maintainable, and scalable bulk data insertion**.
 Automatically generate employee details for each employee.
 
-Mass Data Seeding: Used php artisan migrate:fresh --seed to drop old tables, run migrations again, and insert the new fake bulk data.
-
-Verification: Confirmed 100,000+ employee records were created in the employees table along with corresponding rows in employee_details and departments.
-
-Best Practices: Followed Laravel’s conventions for Factories, Seeders, and Relationships, ensuring clean, maintainable code for large-scale data insertion.
