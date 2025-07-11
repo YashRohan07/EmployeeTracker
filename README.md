@@ -80,20 +80,27 @@ Automatically generate employee details for each employee.
  
 
 **List All Employees (GET)**
+
 <img width="937" height="585" alt="1" src="https://github.com/user-attachments/assets/2a4452c0-6cb9-414b-b51a-a5289926dea3" />
 
 <img width="666" height="566" alt="111" src="https://github.com/user-attachments/assets/3c19eca6-f747-4139-9967-33631c4b1578" />
 
 
 **Create New Employee (POST)**
+
 <img width="934" height="377" alt="4" src="https://github.com/user-attachments/assets/88c7f9b1-8dd9-4653-995a-dca887213fd3" />
 
 <img width="934" height="557" alt="5" src="https://github.com/user-attachments/assets/8c7c5a83-92be-4270-822e-8195b981b565" />
 
+
+**Get Single Employee by ID (GET)**
+
 <img width="937" height="578" alt="6" src="https://github.com/user-attachments/assets/fddc70ea-3671-4d6c-89fa-5e51be3936f6" />
 
+**Update Existing Employee (PUT/PATCH)**
 <img width="929" height="587" alt="7" src="https://github.com/user-attachments/assets/f6a33950-b603-4b78-9b48-5c4fce893734" />
 
+**Delete Employee (DELETE)**
 <img width="937" height="242" alt="9" src="https://github.com/user-attachments/assets/50946b4b-bc5e-4d21-8043-f207b5a05adf" />
 
 <img width="936" height="242" alt="10" src="https://github.com/user-attachments/assets/bf91f311-be48-4a41-b195-7be9c967e386" />
