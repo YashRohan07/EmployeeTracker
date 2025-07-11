@@ -64,7 +64,7 @@ Automatically generate employee details for each employee.
   - `destroy($id)` – Deletes an **employee**.  
 
 - **Validation:**  
-  - Used Laravel’s **Validator** to ensure inputs meet required constraints (e.g., **unique email**, **valid department**, **required fields**).  
+  - Used Laravel’s **Validator** to ensure inputs meet required constraints (**unique email**, **valid department**, **required fields**).  
 
 - **Eloquent Relationships Used:**  
   - Leveraged Eloquent relationships (**Employee has department and detail**) to **eager load** related data efficiently.  
@@ -73,7 +73,56 @@ Automatically generate employee details for each employee.
   - Auto generated **UUIDs** for employee IDs when creating new records.  
 
 - **JSON Response:**  
-  - Returned **JSON responses** with appropriate **HTTP status codes** for success and error scenarios.  
+  - Returned JSON responses with appropriate HTTP status codes for success and error scenarios.  
 
 - **Tested API:**  
-  - Tested API endpoints with **samples** and verified responses (including **creating employees** and **retrieving them**).
+  - Tested API endpoints with samples and verified responses (including creating employees and retrieving them).
+ 
+
+<img width="937" height="585" alt="1" src="https://github.com/user-attachments/assets/2a4452c0-6cb9-414b-b51a-a5289926dea3" />
+
+"current_page": 1,
+    "data": [
+        {
+            "id": "00025f6f-a6be-38ea-b08c-a296dba22bdc",
+            "name": "Ollie Wilkinson IV",
+            "email": "murray.felipe@example.com",
+            "department_id": 9,
+            "created_at": "2025-07-11T05:16:59.000000Z",
+            "updated_at": "2025-07-11T05:16:59.000000Z",
+            "deleted_at": null,
+            "department": {
+                "id": 9,
+                "name": "Hermann, Anderson and Hagenes",
+                "description": "Self-enabling eco-centric database",
+                "created_at": "2025-07-11T05:08:13.000000Z",
+                "updated_at": "2025-07-11T05:08:13.000000Z",
+                "deleted_at": null
+            },
+            "detail": {
+                "id": 31847,
+                "employee_id": "00025f6f-a6be-38ea-b08c-a296dba22bdc",
+                "designation": "Creative Writer",
+                "salary": 88672.93,
+                "address": "2514 Cronin Ridges Suite 575\nOsinskifurt, NV 13760",
+                "joined_date": "1995-05-14",
+                "created_at": "2025-07-11T05:27:28.000000Z",
+                "updated_at": "2025-07-11T05:27:28.000000Z"
+            }
+        },
+        
+
+<img width="934" height="377" alt="4" src="https://github.com/user-attachments/assets/88c7f9b1-8dd9-4653-995a-dca887213fd3" />
+
+<img width="934" height="557" alt="5" src="https://github.com/user-attachments/assets/8c7c5a83-92be-4270-822e-8195b981b565" />
+
+<img width="937" height="578" alt="6" src="https://github.com/user-attachments/assets/fddc70ea-3671-4d6c-89fa-5e51be3936f6" />
+
+<img width="929" height="587" alt="7" src="https://github.com/user-attachments/assets/f6a33950-b603-4b78-9b48-5c4fce893734" />
+
+<img width="937" height="242" alt="9" src="https://github.com/user-attachments/assets/50946b4b-bc5e-4d21-8043-f207b5a05adf" />
+
+<img width="936" height="242" alt="10" src="https://github.com/user-attachments/assets/bf91f311-be48-4a41-b195-7be9c967e386" />
+
+
+
