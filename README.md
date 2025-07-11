@@ -37,7 +37,7 @@
   - Migrate fresh tables.  
   - Seed bulk fake data efficiently.  
 
-- **Verification:** Confirmed that **100,000+ employees** and corresponding records in `employee_details` and `departments` tables were successfully created.  
+- **Verification:** Confirmed that **100,000+ employees** and `10 department` tables were successfully created.
 
 - **Best Practices:** Followed Laravel conventions for factories, seeders, and model relationships to ensure **clean, maintainable, and scalable bulk data insertion**.
 Automatically generate employee details for each employee.
