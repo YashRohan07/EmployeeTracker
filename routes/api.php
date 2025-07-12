@@ -8,5 +8,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-// Protected employee routes
-Route::middleware('auth:sanctum')->apiResource('employees', EmployeeController::class);
+// ✅ Remove `index` — now handled by web route
+Route::middleware('auth:sanctum')->apiResource('employees', EmployeeController::class)->except(['index']);
+
+Route::middleware('auth:sanctum')->get('/departments', function () {
+    return response()->json(\App\Models\Department::all());
+});
